@@ -1,0 +1,4 @@
+.opportunity .container .banner {
+    display: grid;
+    grid-template-columns: 300px auto;
+}

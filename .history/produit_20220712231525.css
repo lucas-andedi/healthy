@@ -1,0 +1,14 @@
+.produit {
+    padding: 50px;
+    
+}
+.produit .container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 100px;
+}
+.produit .container article {
+
+}

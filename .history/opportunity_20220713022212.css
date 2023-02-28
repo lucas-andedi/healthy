@@ -1,0 +1,42 @@
+.opportunity {
+    padding-top: 8rem;
+}
+.opportunity .container .banner {
+    display: grid;
+    grid-template-columns: 600px auto;
+}
+
+.opportunity .container .text {
+    padding: 30px;
+}
+
+.opportunity .container article:first-child {
+    display: grid;
+    grid-template-columns: 800px auto;
+    margin-top: 50px;
+}
+.opportunity .container article:last-child {
+    display: grid;
+    grid-template-columns: auto 800px;
+    
+
+    /* margin-top: 50px; */
+}
+.opportunity .container article .text {
+    margin-right: 150px ;
+}
+.opportunity .container article .img img {
+    border-radius: 30px;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 255, 0.527);
+    margin-right: 50px;
+}
+.opportunity .container article .img div {
+    height: 200px;
+    width: 280px;
+    background-color: rgba(0, 0, 255, 0.637);
+    position: relative;
+    top: -170px;
+    left: 80px;
+    z-index: -1;
+    border-radius: 30px;
+}

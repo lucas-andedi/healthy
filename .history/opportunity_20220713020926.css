@@ -1,0 +1,19 @@
+.opportunity {
+    padding-top: 8rem;
+}
+.opportunity .container .banner {
+    display: grid;
+    grid-template-columns: 600px auto;
+}
+
+.opportunity .container .text {
+    padding: 30px;
+}
+
+.opportunity .container article {
+    display: grid;
+    grid-template-columns: 650px auto;
+}
+.opportunity .container article .text {
+    margin-right: 100px ;
+}

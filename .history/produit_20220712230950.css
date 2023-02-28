@@ -1,0 +1,7 @@
+.produit {
+    padding: 50px;
+}
+.produit .container {
+    display: grid;
+    grid-template-columns: ;
+}

@@ -1,0 +1,33 @@
+.opportunity {
+    padding-top: 8rem;
+}
+.opportunity .container .banner {
+    display: grid;
+    grid-template-columns: 600px auto;
+}
+
+.opportunity .container .text {
+    padding: 30px;
+}
+
+.opportunity .container article {
+    display: grid;
+    grid-template-columns: 800px auto;
+    margin-top: 50px;
+}
+.opportunity .container article .text {
+    margin-right: 150px ;
+}
+.opportunity .container article .img img {
+    border-radius: 30px;
+}
+.opportunity .container article .img div {
+    height: 200px;
+    width: 280px;
+    background-color: blue;
+    position: relative;
+    top: -180px;
+    left: 120px;
+    z-index: -1;
+    border-radius: 30px;
+}

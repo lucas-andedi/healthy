@@ -1,0 +1,10 @@
+section#contact .container {
+    display: grid;
+    grid-template-columns: 20rem auto;
+    gap: 5rem;
+}
+section#contact aside {
+    background-color: var(--color-primary);
+    padding: 2rem;
+    font-size: .9rem;
+}
